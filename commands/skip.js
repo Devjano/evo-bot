@@ -5,7 +5,7 @@ i18n.setLocale(LOCALE);
 
 module.exports = {
   name: "skip",
-  aliases: ["s"],
+  aliases: ["sk"],
   description: i18n.__("skip.description"),
   execute(message) {
     const queue = message.client.queue.get(message.guild.id);
