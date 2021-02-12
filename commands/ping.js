@@ -5,6 +5,7 @@ i18n.setLocale(LOCALE);
 
 module.exports = {
   name: "ping",
+  aliases: ["ms"],
   cooldown: 10,
   description: i18n.__("ping.description"),
   execute(message) {
