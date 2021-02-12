@@ -4,6 +4,7 @@ i18n.setLocale(LOCALE);
 
 module.exports = {
   name: "clip",
+  aliases: ["c"],
   description: i18n.__('clip.description'),
   async execute(message, args) {
     const { channel } = message.member.voice;
