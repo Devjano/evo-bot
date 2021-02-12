@@ -5,6 +5,7 @@ i18n.setLocale(LOCALE);
 
 module.exports = {
   name: "stop",
+  aliases: ["s"],
   description: i18n.__('stop.description'),
   execute(message) {
     const queue = message.client.queue.get(message.guild.id);
