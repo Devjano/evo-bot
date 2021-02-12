@@ -9,7 +9,7 @@
   "repository": "github:eritislami/evobot",
   "bugs": "https://github.com/eritislami/evobot/issues",
   "engines": {
-    "node": ">=14.0.0"
+    "node": "12.x"
   },
   "dependencies": {
     "@discordjs/opus": "^0.3.3",
