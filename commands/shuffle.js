@@ -5,6 +5,7 @@ i18n.setLocale(LOCALE);
 
 module.exports = {
   name: "shuffle",
+  aliases: ["sh"],
   description: i18n.__('shuffle.description'),
   execute(message) {
     const queue = message.client.queue.get(message.guild.id);
