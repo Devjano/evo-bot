@@ -14,6 +14,7 @@ try {
 
 module.exports = {
   name: "pruning",
+  aliases: ["pr"],
   description: i18n.__('pruning.description'),
   execute(message) {
     if (!config) return;
