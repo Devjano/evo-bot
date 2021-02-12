@@ -1,31 +1,53 @@
-const { MessageEmbed } = require("discord.js");
-const { LOCALE } = require("../util/EvobotUtil");
-const i18n = require("i18n");
-
-i18n.setLocale(LOCALE);
+ const { MessageEmbed } = require("discord.js");
 
 module.exports = {
   name: "help",
   aliases: ["h"],
-  description: i18n.__("help.description"),
+  cooldown: 8,
+  description: "**all commands**",
   execute(message) {
     let commands = message.client.commands.array();
 
     let helpEmbed = new MessageEmbed()
-      .setTitle(i18n.__mf("help.embedTitle", { botname: message.client.user.username }))
-      .setDescription(i18n.__("help.embedDescription"))
-      .setColor("#F8AA2A");
+    .setTitle(`**Hyper Music  Commands**`)
+    .setThumbnail("https://media.tenor.com/images/3145445a2c5bde03ac708c2c309fdbca/tenor.gif")
+    .setAuthor("Prefix [ $ ]","https://31.media.tumblr.com/edcc03d21d41b65d4c38aa08af6b8318/tumblr_moq13eC8LR1r42kl9o1_500.gif")
+    .setDescription(` 
+\`Help Commands\`
 
-    commands.forEach((cmd) => {
-      helpEmbed.addField(
-        `**${message.client.prefix}${cmd.name} ${cmd.aliases ? `(${cmd.aliases})` : ""}**`,
-        `${cmd.description}`,
-        true
-      );
-    });
+**Music Command**
 
+**| $paly | $stop | $skip | $skipto | $volume |**
+
+**| $queue | $loop | $pause | $nowplaying |**
+
+**| $shuffle | $uptime | $search | $remove |**
+
+**| $clip | $clips | $lyrics | $move | $playlist |**
+
+**Info Command**
+
+**| $bot | $support | $invite | $help |$ping |**
+
+**Music Easy Commands**
+
+**| $p | $s | $sk | $st | $v | $q | $l | $pa | $np |**
+
+**| $sh | $u | $se | $rm | $r | $ms | $b | $sp |**
+
+**| $c | $cl | $pl | $mv | $ly | $add | $h |**
+     
+**[ invite ]**
+**[ click here ](https://discord.com/api/oauth2/authorize?client_id=780578520870158337&permissions=8&scope=bot)** 
+**[ support ]**
+**[ click here ](https://discord.gg/3wykSpqjZq)**                                                                
+**[ vote ]**
+**[ click here ](https://top.gg/bot/780578520870158337)**                                                                
+ `)
+    
     helpEmbed.setTimestamp();
 
     return message.channel.send(helpEmbed).catch(console.error);
+
   }
 };
