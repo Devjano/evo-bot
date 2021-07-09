@@ -11,7 +11,7 @@ module.exports = {
     let helpEmbed = new MessageEmbed()
     .setTitle(`**Hyper Music  Commands**`)
     .setThumbnail("https://media.tenor.com/images/3145445a2c5bde03ac708c2c309fdbca/tenor.gif")
-    .setAuthor("Prefix [ $ ]","https://31.media.tumblr.com/edcc03d21d41b65d4c38aa08af6b8318/tumblr_moq13eC8LR1r42kl9o1_500.gif")
+    .setAuthor("Prefix [ $ ]","")
     .setDescription(` 
 \`Help Commands\`
 
