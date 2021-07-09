@@ -17,32 +17,24 @@ module.exports = {
 
 **Music Command**
 
-**| $paly | $stop | $skip | $skipto | $volume |**
+\` $paly , $stop , $skip , $skipto , $volume \`
 
-**| $queue | $loop | $pause | $nowplaying |**
+\` $queue , $loop , $pause , $nowplaying \`
 
-**| $shuffle | $uptime | $search | $remove |**
+\` $shuffle , $uptime , $search , $remove \`
 
-**| $clip | $clips | $lyrics | $move | $playlist |**
+\` $clip , $clips , $lyrics , $move , $playlist \`
 
 **Info Command**
 
-**| $bot | $support | $invite | $help |$ping |**
+\` $bot , $support , $invite , $help , $ping \`
 
-**Music Easy Commands**
 
-**| $p | $s | $sk | $st | $v | $q | $l | $pa | $np |**
 
-**| $sh | $u | $se | $rm | $r | $ms | $b | $sp |**
-
-**| $c | $cl | $pl | $mv | $ly | $add | $h |**
      
-**[ invite ]**
-**[ click here ](https://discord.com/api/oauth2/authorize?client_id=780578520870158337&permissions=8&scope=bot)** 
-**[ support ]**
-**[ click here ](https://discord.gg/3wykSpqjZq)**                                                                
-**[ vote ]**
-**[ click here ](https://top.gg/bot/780578520870158337)**                                                                
+**[ invite ](https://discord.com/api/oauth2/authorize?client_id=780578520870158337&permissions=8&scope=bot)** , **[ support ](https://discord.gg/3wykSpqjZq)**      
+
+**[ vote ](https://top.gg/bot/780578520870158337)**                                                                
  `)
     
     helpEmbed.setTimestamp();
