@@ -18,72 +18,72 @@
   },
   "loop": {
     "description": "**Toggle music loop**",
-    "errorNotQueue": "**nothing playing**",
+    "errorNotQueue": "<a:jano_26:799630865474256972> | **nothing playing**",
     "result": "**Loop is now** {loop}"
   },
   "lyrics": {
     "description": "**Get lyrics for the currently playing song**",
-    "errorNotQueue": "**nothing playing**<a:jano_26:799630865474256972>",
+    "errorNotQueue": "<a:jano_26:799630865474256972> | **nothing playing**",
     "lyricsNotFound": "**No lyrics found for** {title}.",
     "embedTitle": "{title} - Lyrics"
   },
   "move": {
     "description": "**Move songs around in the queue**",
-    "errorNotQueue": "**nothing queue**<a:jano_26:799630865474256972>",
+    "errorNotQueue": "<a:jano_26:799630865474256972> | **nothing queue**",
     "usagesReply": "** $move queue Number**",
     "result": "<@{author}> 🚚 moved **{title}** to {index} in the queue."
   },
   "nowplaying": {
     "description": "**Show now playing song**",
-    "errorNotQueue": "**nothing playing**<a:jano_26:799630865474256972>",
-    "embedTitle": "**Now playing**",
+    "errorNotQueue": "<a:jano_26:799630865474256972> | **nothing playing**",
+    "embedTitle": "<a:jano_6:799640680812773417> | **Now playing**",
     "live": " ◉ **LIVE**",
     "timeRemaining": "Time Remaining: {time}"
   },
   "pause": {
     "description": "**Pause the currently playing music**",
-    "errorNotQueue": "**nothing playing**<a:jano_26:799630865474256972>",
-    "result": "<@{author}> <:jano_6:803654035466747904> paused the music."
+    "errorNotQueue": "<a:jano_26:799630865474256972> | **nothing playing**",
+    "result": "<@{author}> <:jano_6:803654035466747904> | **paused the music**"
   },
   "ping": {
     "description": "**Ping Bot**",
-    "result": ":ping_pong: {ping} ms"
+    "result": "ms <a:jano_43:840250638483062784>"
   },
   "play": {
     "description": "**Plays audio from YouTube or Soundcloud**",
-    "errorNotChannel": "**You have to be in a voice channel to use this command**<a:jano_26:799630865474256972>",
+    "errorNotChannel": "<a:jano_26:799630865474256972> | **You have to be in a voice channel to use this command**",
     "errorNotInSameChannel": "**You have to be on the same channel, my heart**",
     "usageReply": "**$play name music, or link you tube**",
-    "missingPermissionConnect": "**can't connect to Voicechannel**<a:jano_26:799630865474256972>",
-    "missingPermissionSpeak": "**I can't say it here See if I've been given full permission**<a:jano_26:799630865474256972>",
-    "queueAdded": "<a:jano_6:799640680812773417>**{title}** **Added to queue** <@{author}>",
-    "cantJoinChannel": "**Could not join the channel** {error}",
-    "queueEnded": "**Music queue ended**<a:jano_26:799630865474256972>",
-    "queueError": "**Error** {error}",
-    "startedPlaying": "🎧 **Started Playing** `{title}` {url}",
-    "skipSong": "<@{author}> <:jano_5:803653725235052606> **Skipped Music**",
-    "pauseSong": "<@{author}> <:jano_6:803654035466747904> **Paused Music**",
+    "missingPermissionConnect": "<a:jano_26:799630865474256972> | **can't connect to Voicechannel**",
+    "missingPermissionSpeak": "<a:jano_26:799630865474256972> | **I can't say it here See if I've been given full permission**",
+    "queueAdded": "<a:jano_6:799640680812773417> | **{title}** **Added to queue** <@{author}>",
+    "cantJoinChannel": "<a:jano_26:799630865474256972> | **Could not join the channel** {error}",
+    "queueEnded": "<a:jano_26:799630865474256972> | **Music queue ended**",
+    "queueError": "<a:jano_26:799630865474256972> | **Error** {error}",
+    "startedPlaying": "<a:jano_46:840252286533238835><a:jano_43:840250638483062784> | **Started Playing** `{title}` {url}",
+    "skipSong": "<@{author}> <:jano_5:803653725235052606> | **Skipped Music**",
+    "pauseSong": "<@{author}> <:jano_6:803654035466747904> | **Paused Music**",
     "resumeSong": "<@{author}> ▶ **Resumed Music**",
-    "unmutedSong": "<@{author}> <:jano_8:803654689693892611> **Unmuted Music**",
-    "mutedSong": "<@{author}> <:jano_4:803652339419578388> **muted Music**",
-    "decreasedVolume": "<@{author}> <:jano_7:803654408973582356> **The rate has been reduced** {volume}%",
-    "increasedVolume": "<@{author}> <:jano_8:803654689693892611> **The rate has been raised** {volume}%",
-    "loopSong": "<@{author}> **Loop is now** {loop}",
-    "stopSong": "<@{author}> <:jano_10:803655327928680508> **stopped**",
+    "unmutedSong": "<@{author}> <:jano_8:803654689693892611> | **Unmuted Music**",
+    "mutedSong": "<@{author}> <:jano_4:803652339419578388> | **muted Music**",
+    "decreasedVolume": "<@{author}> <:jano_7:803654408973582356> | **The rate has been reduced** {volume}%",
+    "increasedVolume": "<@{author}> <:jano_8:803654689693892611> | **The rate has been raised** {volume}%",
+    "loopSong": "<@{author}> <a:jano_6:799640680812773417> | **Loop is now** {loop}",
+    "stopSong": "<@{author}> <:jano_10:803655327928680508> | **stopped**",
     "leaveChannel": "**graduated from Voiss**"
   },
   "playlist": {
     "description": "**Play a playlist from youtube**",
     "usagesReply": "**$play name music, or link you tube**",
-    "errorNotChannel": "**You have to be in a voice channel to use this command**<a:jano_26:799630865474256972>",
+    "errorNotChannel": "<a:jano_26:799630865474256972> | **You have to be in a voice channel to use this command**",
     "errorNotInSameChannel": "**You have to be on the same channel, my heart** ",
-    "missingPermissionConnect": "**can't connect to Voicechannel**<a:jano_26:799630865474256972>",
-    "missingPermissionSpeak": "**I can't say it here See if I've been given full permission**<a:jano_26:799630865474256972>",
-    "errorNotFoundPlaylist": "**Playlist not found** :(",
+    "missingPermissionConnect": "<a:jano_26:799630865474256972> | **can't connect to Voicechannel**",
+    "missingPermissionSpeak": "<a:jano_26:799630865474256972>| **I can't say it here See if I've been given full permission**",
+    "errorNotFoundPlaylist": "<a:jano_26:799630865474256972> | **Playlist not found** :(",
     "fetchingPlaylist": "⌛ fetching the playlist...",
     "playlistCharLimit": "**Playlist larger than character limit**",
-    "startedPlaylist": "<@{author}> **Started a playlist**",
-    "cantJoinChannel": "**Could not join the channel** {error}"
+    "startedPlaylist": "<@{author}> <a:jano_26:799630865474256972> | **Started a playlist**",
+    "cantJoinChannel": "<a:jano_26:799630865474256972> | **Could not join the channel** {error}"
   },
   "pruning": {
     "description": "**Toggle pruning of bot messages**",
@@ -93,7 +93,7 @@
   "queue": {
     "description": "**Show the music queue and now playing.**",
     "missingPermissionMessage": "**Missing permission to manage messages or add reactions**",
-    "errorNotQueue": "**Nothing playing in this server**<a:jano_26:799630865474256972>",
+    "errorNotQueue": "<a:jano_26:799630865474256972> | **Nothing playing in this server**",
     "currentPage": "Current Page - ",
     "embedTitle": "Song Queue\n",
     "embedCurrentSong": "**Current Song - [{title}]({url})**\n\n{info}"
@@ -102,43 +102,43 @@
     "description": "**Remove song from the queue**",
     "errorNotQueue": "**There is no queue**",
     "usageReply": "Usage: {prefix}remove <Queue Number>",
-    "result": "<@{author}>  <a:jano_26:799630865474256972>**removed** **{title}** from the queue"
+    "result": "<@{author}>  <a:jano_26:799630865474256972>| **removed** **{title}** from the queue"
   },
   "resume": {
     "description": "Resume currently playing music",
-    "errorNotQueue": "**You have to be in a voice channel to use this command**<a:jano_26:799630865474256972>",
+    "errorNotQueue": "<a:jano_26:799630865474256972> | **You have to be in a voice channel to use this command**",
     "resultNotPlaying": "<@{author}> ▶ **Resumed Music**",
-    "errorPlaying": "**The player is not paused**<a:jano_26:799630865474256972>"
+    "errorPlaying": "<a:jano_26:799630865474256972> | **The player is not paused**"
   },
   "search": {
     "description": "Search and select videos to play",
     "usageReply": "Usage: {prefix}{name} <Video Name>",
-    "errorAlreadyCollector": "**You have to be in a voice channel to use this command**<a:jano_26:799630865474256972>",
-    "errorNotChannel": "**You have to be in a voice channel to use this command**<a:jano_26:799630865474256972>",
+    "errorAlreadyCollector": "<a:jano_26:799630865474256972> | **You have to be in a voice channel to use this command**",
+    "errorNotChannel": "<a:jano_26:799630865474256972> | **You have to be in a voice channel to use this command**",
     "resultEmbedTtile": "**Reply with the song number you want to play**",
     "resultEmbedDesc": "Results for: {search}"
   },
   "shuffle": {
     "description": "**Shuffle Queue**",
     "errorNotQueue": "**There is no queue**",
-    "result": "<@{author}> <:jano_9:803655062512861245> **shuffled the queue**"
+    "result": "<@{author}> <:jano_9:803655062512861245> | **shuffled the queue**"
   },
   "skip": {
     "description": "**Skip Song**",
-    "errorNotQueue": "**You have to be in a voice channel to use this command**<a:jano_26:799630865474256972>",
-    "result": "<@{author}> <:jano_5:803653725235052606> **Skipped  Song**"
+    "errorNotQueue": "<a:jano_26:799630865474256972> | **You have to be in a voice channel to use this command**",
+    "result": "<@{author}> <:jano_5:803653725235052606> |**Skipped  Song**"
   },
   "skipto": {
     "description": "**Skip to the selected queue number**",
     "usageReply": "Usage: {prefix}{name} <Queue Number>",
     "errorNotQueue": "**nothing queue**",
     "errorNotValid": "The queue is only {length} songs long!",
-    "result": "<@{author}> <:jano_5:803653725235052606> skipped {arg} songs"
+    "result": "<@{author}> <:jano_5:803653725235052606> | skipped {arg} songs"
   },
   "stop": {
     "description": "**Stops  Music**",
-    "errorNotQueue": "**You have to be in a voice channel to use this command**<a:jano_26:799630865474256972>",
-    "result": "<@{author}> <:jano_10:803655327928680508> **Stopped  Music**"
+    "errorNotQueue": "<a:jano_26:799630865474256972> | **You have to be in a voice channel to use this command**",
+    "result": "<@{author}> <:jano_10:803655327928680508> | **Stopped  Music**"
   },
   "uptime": {
     "description": "**Check the uptime**",
@@ -146,20 +146,20 @@
   },
   "volume": {
     "description": "**Change sound rate**",
-    "errorNotQueue": "**nothing playing**<a:jano_26:799630865474256972>",
-    "errorNotChannel": "**There was an error executing that command**<a:jano_26:799630865474256972>",
-    "currentVolume": "<:jano_8:803654689693892611> **Current Rate** **{volume}%**",
+    "errorNotQueue": "<a:jano_26:799630865474256972> | **nothing playing**",
+    "errorNotChannel": "<a:jano_26:799630865474256972>|**There was an error executing that command**",
+    "currentVolume": "<:jano_8:803654689693892611>|**Current Rate** **{volume}%**",
     "errorNotNumber": "**Please number the audio ratio**",
     "errorNotValid": "**Please use a number between** 0 - 100.",
     "result": "**Set rate to** **{arg}%**"
   },
   "common": {
-    "on": "**on**",
-    "off": "**off**",
-    "enabled": "**enabled**",
-    "disabled": "**disabled**",
-    "errorNotChannel": "**You have to be in a voice channel to use this command**<a:jano_26:799630865474256972>",
+    "on": "<a:jano_6:799640680812773417> | **on**",
+    "off": "<a:jano_26:799630865474256972> | **off**",
+    "enabled": "<a:jano_6:799640680812773417> | **enabled**",
+    "disabled": "<a:jano_26:799630865474256972> | **disabled**",
+    "errorNotChannel": "<a:jano_26:799630865474256972> | **You have to be in a voice channel to use this command**",
     "cooldownMessage": "**please wait {time} more second(s) before reusing the** `{name}` command.",
-    "errorCommend": "**There was an error executing that command**<a:jano_26:799630865474256972>"
+    "errorCommend": "<a:jano_26:799630865474256972> | **There was an error executing that command**"
   }
 }
