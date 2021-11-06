@@ -13,7 +13,7 @@ module.exports = {
 
     .setDescription(` 
 > **Music Command**
-> \` $paly\` • \`$stop\` • \`$skip\` • \`$skipto\` • \`$volume \`
+> \` $play\` • \`$stop\` • \`$skip\` • \`$skipto\` • \`$volume \`
 > \` $queue\` • \`$loop\` • \`$pause\` • \`$nowplaying \`
 > \` $shuffle\` • \`$uptime\` • \`$search\` • \`$remove \`
 > \` $clip\` • \`$clips\` • \`$lyrics\` • \`$move\` • \`$playlist \`
